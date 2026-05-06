@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload File with Caption</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="upload-container">
+    <h2>Upload File Api</h2>
+     <p id="msg"></p>
+    <form id="uploadForm">
+        <input type="file" name="file" id="fileInput" required>
+
+        <textarea id="caption" name="caption" placeholder="Enter caption..." required></textarea>
+
+        <button type="submit">Upload</button>
+    </form>   
+</div>
+<br>
+ <h2>Uploaded Images</h2>
+<div id="preview-container">
+   
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
